@@ -113,7 +113,7 @@ fn main() {
 
     println!("res4 {:?} {}",res4,res4.iter().sum::<u64>());
     
-    let mut res20 = [66;20];
+    let mut res20 = [0;20];
     for (i,p) in res4.iter().enumerate() {
 	for a in &numbers5 {
 	    for b in &numbers5 {
