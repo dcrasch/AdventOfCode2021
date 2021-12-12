@@ -51,6 +51,6 @@ fn main() {
             }
         }
     }
-    eprintln!("sol1 {}",count);
+    println!("sol1 {}",count);
 }
 	
